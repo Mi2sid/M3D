@@ -131,7 +131,8 @@ namespace M3D_ISICG
 	void LabWork4::_initCamera()
 	{
 		_camera.setScreenSize( 1280, 720 );
-		_camera.setPosition( VEC3F_ZERO );
+		_camera.setPosition( Vec3f(-1.8f, 1.2f, 1.f) );
+		_camera.rotate( 50.f, 20.f);
 	}
 
 	void LabWork4::animate( const float p_deltaTime ) {
