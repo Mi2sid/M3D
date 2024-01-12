@@ -7,7 +7,7 @@ uniform vec3  uDiffuseColor;
 uniform vec3  uSpecularColor;
 uniform float uShininess;
 uniform vec3  uLightPos;
-uniform vec4  uStaticLightPos;
+
 
 in vec3 FragNormal;
 in vec3 FragPos;
@@ -27,8 +27,7 @@ void main()
 	vec3  _diffuse	 = uDiffuseColor * _intensite;
 
 		// Eclairage Speculaire - Blinn Phong
-	vec3 _specular
-		= uSpecularColor * pow( max( dot( _FragNormal, normalize( _lightDir - FragPos ) ), 0.f ), uShininess );
+	vec3 _specular = uSpecularColor * pow( max( dot( _lightDir, -FragPos ), 0.f ), uShininess );
 
 	fragColor = vec4( _specular + _diffuse + uAmbiantColor, 1.f );
 }
