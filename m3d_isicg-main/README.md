@@ -1,2 +1,2 @@
-![Image Nuit](./screenshots/night.bmp "Image de Nuit").
-![Image Jour](./screenshots/day.bmp "Image de Jour").
+![Image Nuit](./data/img/night.bmp "Image de Nuit").
+![Image Jour](./data/img/day.bmp "Image de Jour").
