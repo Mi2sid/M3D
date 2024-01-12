@@ -139,6 +139,11 @@ namespace M3D_ISICG
 	void LabWorkProject::_initLights() { 
 
 		//Setup des toutes les lumière
+		// format en mat3:
+		// posx posy posz
+		// filtreR filtreG filtreB
+		// distance distance distance
+		// 
 		// lumière caméra
 		_sceneLights.push_back( Mat3f(
 			Vec3f( _camera.getPosition() * Vec3f( 1 / _scaler ) ), Vec3f( 0.8f, 0.7f, 0.3f ), Vec3f( _torchPower ) ) ); 
