@@ -15,19 +15,20 @@ in vec3 FragPos;
 void main()
 {
 	// Eclairage Diffus - Phong
-	vec3 lightDir = normalize( uLightPos - FragPos );
+	vec3 _lightDir = normalize( uLightPos - FragPos );
 
 	vec3 _FragNormal = FragNormal;
-	if ( dot( _FragNormal, lightDir ) < 0.f )
+	if ( dot( _FragNormal, _lightDir ) < 0.f )
 	{ // normal et lumiere incidente ont des directions opposees
 		_FragNormal *= -1;
 	}
 
-	float _intensite = max( dot( _FragNormal, lightDir ), 0.f );
+	float _intensite = max( dot( _FragNormal, _lightDir ), 0.f );
 	vec3  _diffuse	 = uDiffuseColor * _intensite;
 
-	// Eclairage Speculaire - Blinn Phong
-	_specular *= pow( max( dot( _normal, normalize( _lightDir + _viewDir ) ), 0.f ), _shininess );
+		// Eclairage Speculaire - Blinn Phong
+	vec3 _specular
+		= uSpecularColor * pow( max( dot( _FragNormal, normalize( _lightDir - FragPos ) ), 0.f ), uShininess );
 
-	fragColor = vec4( _specular + _diffuse.xyz + _ambiant, 1.f );
+	fragColor = vec4( _specular + _diffuse + uAmbiantColor, 1.f );
 }
