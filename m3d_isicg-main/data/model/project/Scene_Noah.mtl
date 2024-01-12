@@ -1,0 +1,131 @@
+# Blender 4.0.2 MTL File: 'untitled1.blend'
+# www.blender.org
+
+newmtl M_basicvertex_Inst
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd textures/M_basicvertex_Inst_D.bmp
+map_Ks textures/M_basicvertex_Inst_S.bmp
+map_Bump textures/M_basicvertex_Inst_N.bmp
+
+newmtl Material.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd textures/MSH_tele_low_Checker_BaseColor.png
+
+newmtl Pavet_Endomagé
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd textures/Pavet_Endomagé_D.bmp
+map_Ks textures/Pavet_Endomagé_S.bmp
+map_Bump textures/Pavet_Endomagé_N.bmp
+
+newmtl Poubelle_année_70
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd textures/Poubelle_année_70_D.bmp
+map_Ks textures/Poubelle_année_70_S.bmp
+map_Bump textures/Poubelle_année_70_N.bmp
+
+newmtl Radiatue
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd textures/Radiatue_D.bmp
+map_Ks textures/Radiatue_S.bmp
+map_Bump textures/Radiatue_N.bmp
+
+newmtl Scene_Moteur_Noah:BasicShapeMaterial1
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures/BasicShapeMaterial_D.bmp
+map_Bump textures/BasicShapeMaterial_N.bmp
+
+newmtl Scene_Moteur_Noah:M_basicvertex_Inst1
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures/M_basicvertex_Inst_D.bmp
+map_Bump textures/M_basicvertex_Inst_N.bmp
+
+newmtl Scene_Moteur_Noah:Mur1
+Ns 200.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.500000 0.500000 0.500000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl bordure1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd textures/bordure1_D.bmp
+map_Ks textures/bordure1_S.bmp
+map_Bump textures/bordure1_N.bmp
+
+newmtl lavabo
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd textures/lavabo_D.bmp
+map_Ks textures/lavabo_S.bmp
+map_Bump textures/lavabo_N.bmp
+
+newmtl mur
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd textures/Mur_Texture_T_Mur_Porte_BaseColor.png
+map_Bump -bm 1.000000 textures/Mur_Texture_T_Mur_Porte_Normal.png
+
+newmtl porte
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd textures/POrte_T_Porte_BaseColor.png
